@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'compas' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json gitsample@0.0.0 No description
+6 warn package.json gitsample@0.0.0 No repository field.
+7 warn package.json gitsample@0.0.0 No README data
+8 warn package.json karma-coffee-preprocessor@0.2.1 No README data
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'compas', null ]
+11 verbose cache add name=undefined spec="compas" args=["compas",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'compas',
+12 verbose parsed url   path: 'compas',
+12 verbose parsed url   href: 'compas' }
+13 silly lockFile da53f788-compas compas
+14 verbose lock compas C:\Users\smoroz\AppData\Roaming\npm-cache\da53f788-compas.lock
+15 silly lockFile da53f788-compas compas
+16 silly lockFile da53f788-compas compas
+17 verbose addNamed [ 'compas', '' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile 174e3972-compas compas@
+20 verbose lock compas@ C:\Users\smoroz\AppData\Roaming\npm-cache\174e3972-compas.lock
+21 silly addNameRange { name: 'compas', range: '*', hasData: false }
+22 verbose request where is /compas
+23 verbose request registry https://registry.npmjs.org/
+24 verbose request id 33b114437239c1ec
+25 verbose url raw /compas
+26 verbose url resolving [ 'https://registry.npmjs.org/', './compas' ]
+27 verbose url resolved https://registry.npmjs.org/compas
+28 verbose request where is https://registry.npmjs.org/compas
+29 info trying registry request attempt 1 at 14:41:41
+30 http GET https://registry.npmjs.org/compas
+31 http 404 https://registry.npmjs.org/compas
+32 verbose headers { date: 'Thu, 22 Jan 2015 12:42:27 GMT',
+32 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '52',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '0',
+32 verbose headers   'x-served-by': 'cache-ams4134-AMS',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1421930547.442571,VS0,VE107',
+32 verbose headers   'keep-alive': 'timeout=10, max=50',
+32 verbose headers   connection: 'Keep-Alive' }
+33 silly registry.get cb [ 404,
+33 silly registry.get   { date: 'Thu, 22 Jan 2015 12:42:27 GMT',
+33 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly registry.get     'content-type': 'application/json',
+33 silly registry.get     'cache-control': 'max-age=0',
+33 silly registry.get     'content-length': '52',
+33 silly registry.get     'accept-ranges': 'bytes',
+33 silly registry.get     via: '1.1 varnish',
+33 silly registry.get     age: '0',
+33 silly registry.get     'x-served-by': 'cache-ams4134-AMS',
+33 silly registry.get     'x-cache': 'MISS',
+33 silly registry.get     'x-cache-hits': '0',
+33 silly registry.get     'x-timer': 'S1421930547.442571,VS0,VE107',
+33 silly registry.get     'keep-alive': 'timeout=10, max=50',
+33 silly registry.get     connection: 'Keep-Alive' } ]
+34 silly lockFile 174e3972-compas compas@
+35 silly lockFile 174e3972-compas compas@
+36 error 404 404 Not Found: compas
+36 error 404
+36 error 404 'compas' is not in the npm registry.
+36 error 404 You should bug the author to publish it
+36 error 404 It was specified as a dependency of 'gitsample'
+36 error 404
+36 error 404 Note that you can also install from a
+36 error 404 tarball, folder, or http url, or git url.
+37 error System Windows_NT 6.1.7601
+38 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "compas"
+39 error cwd D:\Documents\PROJECTS\HackWeek\GitSample
+40 error node -v v0.10.33
+41 error npm -v 1.4.28
+42 error code E404
+43 verbose exit [ 1, true ]
